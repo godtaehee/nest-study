@@ -99,3 +99,5 @@ async findOne(@Param('uuid', new ParseUUIDPipe()) uuid: string) {
 }
 ```
 
+> `ParseUUIDPipe()`를 사용할때 3,4,5 버전을 사용하는데 버전을 pipe option을 통해 특정 지울수도 있습니다.
+ 
